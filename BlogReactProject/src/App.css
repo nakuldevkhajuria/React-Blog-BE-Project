@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+flex-direction: row;
+  /* align-items:stretch; */
+  font-size: 20px;
+ 
+  /* background-color: rgb(43, 43, 148); */
+  /* width: 50vw; */
+  height: 3.1rem;
+  margin: 0rem .9rem;
+
+
+  /* background-color: red; */
+}
+a{
+  text-decoration: none;
+ 
+}
+.navbarApp{
+  margin: 1rem  auto 0 auto;
+width: 70vw;
+}
+.downBack{
+  /* background-image: linear-gradient(
+    to top , rgb(161, 46, 46), yellow,pink
+  ); 
+  height: 100vh; */
+ 
+}
+
+/* @media screen and (max-width:800px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9rem;
+  }
+} */
+
